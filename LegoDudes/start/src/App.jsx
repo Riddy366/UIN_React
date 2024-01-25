@@ -55,7 +55,7 @@ function App() {
     </nav>
     <main>
     <Title />
-    {products.map(product => <ProductCard key={product.prodid} category={product.category} title = {product.title} img = {product.imagefile} price={product.price}/> )}
+    {products.map(product => <ProductCard key = {product.prodid} category = {product.category} title = {product.title} img = {product.imagefile} price={product.price}/> )}
     </main>
 </div>
   )

@@ -1,4 +1,4 @@
-export function Title() {
-    return (<h2>Ninjago</h2>)
+export function Title({category}) {
+    return (<h2>{category}</h2>)
 }
 

@@ -15,6 +15,7 @@ export default function CategoriesIndex({content, setQuery, setCurrentId}){
 
     const handleClick = (id)=>{
         setCurrentId(id)
+        localStorage.setItem("karakterID", id) // Lagrer karakteren i en sessionStorage. Henter ut id'en til karakteren
     }
 
     console.log("S", content)
